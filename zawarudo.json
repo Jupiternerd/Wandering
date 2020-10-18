@@ -1,0 +1,78 @@
+{
+   "id": 0,
+   "name":"Frog vs Fox",
+   "authors":["notWei"],
+   "set":0,
+   "type":1,
+   "description":"Pleb frog gets jumped by a rival gang of foxes.",
+
+   "characters":{
+      "1":{
+         "name":"frog",
+         "id":1
+      },
+      "2":{
+         "name":"fox1",
+         "id":2
+      },
+      "3":{
+         "name":"fox2",
+         "id":3
+      }
+   },
+   "main":{
+      "1":{
+         "character":1,
+         "dialogue":"What are you doing here?!",
+         "type":1,
+         "bg": 1,
+         "emote":1
+      },
+      "2":{
+         "character":0,
+         "dialogue":[
+            "What?",
+            "Beating lol",
+            "da fakkk lol"
+         ],
+         "type":1,
+         "bg": 1,
+         "to":[
+            3,
+            4,
+            6
+         ]
+      },
+      "3":{
+         "character":1,
+         "dialogue":"ok bruh",
+         "type":3,
+         "bg": 1,
+         "emote":0,
+         "to":6
+      },
+      "4":{
+        "character":2,
+        "dialogue":"beating near my bitch huh",
+        "type":1,
+        "bg": 1,
+        "emote":1,
+        "to":5
+      },
+      "5":{
+        "character":1,
+        "dialogue":"ok bruh",
+        "type":1,
+        "bg": 1,
+        "emote":1,
+        "to":6
+      },
+      "6": {
+        "character":3,
+        "dialogue":"We dipping boys",
+        "type":4,
+        "bg": 1,
+        "emote":1,
+      }
+   }
+}

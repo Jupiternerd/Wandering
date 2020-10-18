@@ -1,0 +1,15 @@
+{
+  "id": 0,
+  "name": "jungle",
+  "authors": [
+    "notWei"
+  ],
+  "set": 0,
+  "type": 1,
+  "description": "Pleb frog",
+  "cost": 50,
+  "g_normal": "https://i.imgur.com/0Jz7ZNN.jpg",
+  "g_night": "https://i.imgur.com/mULDQqg.jpg",
+  "g_noon": null,
+  "g_afternoon": null
+}

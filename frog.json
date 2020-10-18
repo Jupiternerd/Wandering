@@ -1,0 +1,20 @@
+{
+   "id":0,
+   "name":"frog",
+   "authors": ["notWei"],
+   "set":0,
+   "type":1,
+   "description":"Pleb frog",
+   "cost": 50,
+   "g_neutral": "https://i.imgur.com/ijpA9BH.jpg",
+   "g_happy": null,
+   "g_annoyed": null,
+   "g_angry": null,
+   "g_sad": null,
+   "g_surprised": null,
+   "g_blush": null,
+   "gender": 0,
+   "so": 1,
+   "bloodtype": "A",
+   "birthday": "01/29/2003"
+}
