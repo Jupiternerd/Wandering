@@ -45,12 +45,12 @@ for (var y in charMain) {
 		const webhooks = await message.channel.fetchWebhooks();
     const webhook = webhooks.find(w => w.name == charMain[y].name);
 
-    console.log(webhook)
-    webhook.send('test')
+    //console.log(webhook)
+    webhook.send(docMain[y].dialogue)
   }
 for (var x in docMain) {
 
-console.log(docMain[x].dialogue)
+//console.log(docMain[x].dialogue)
 
 
 }

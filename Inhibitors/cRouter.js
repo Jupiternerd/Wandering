@@ -16,7 +16,7 @@ switch(command.categoryID) {
 
   case "bot_Owner":
   console.log("bowner=====")
-  console.log(auth.id == 328294624957300737)
+  console.log(auth.id == 328294624957300737) //kinda stupid lmao
   if (auth.id !== '328294624957300737') return command.categoryID;
   break;
 
